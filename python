@@ -1,0 +1,32 @@
+def pypart2(n):
+  k=2*n-2
+  for i in range(0,n):
+  for j in range(0,k):
+    print(end="")
+    k=k-2
+  for j in range(0,i+1):
+    print("* ",end='')
+  print("\r")
+n=5
+pypart2(n)
+
+
+***********************************************************************************************************************************************
+import ipaddress
+def validate_ip(ip_str):
+   try:
+       ip_obj = ipaddress.ip_address(ip_str)
+       print(f"The IP address {ip_obj} is valid")
+   except ValueError:
+       print(f"The IP address {ip_str} is not valid")
+
+validate_ip("192.168.80.129")
+validate_ip("10")
+*********************************************************************************************************************************************
+def checkvalue (n)
+        if n%2==0:
+              print ("It is an even number")
+        else:
+              print("It is an odd number")
+check value(7)
+*********************************************************************************************************************************************
